@@ -5,6 +5,8 @@ const student = {
   subjects: ["Math", "Science", "History"],
 };
 
+// student.age = 18;
+
 console.log("Student Name: " + student.name);
 console.log("Student Age: " + student.age);
 console.log("Student Grade: " + student.grade);

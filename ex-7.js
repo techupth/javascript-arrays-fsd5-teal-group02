@@ -61,6 +61,6 @@ console.log(totalPurchaseOfJoannet);
 
 totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity; //5
 console.log(totalPurchaseOfDary);
-delete orders[0];
+delete orders[0]; // order.shift()
 
 console.log(orders);
