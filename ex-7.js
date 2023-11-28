@@ -46,3 +46,21 @@ let isArray;
 let creditCardTypeOfBlindermann;
 let totalPurchaseOfJoannet;
 let totalPurchaseOfDary;
+
+isArray = Array.isArray(orders); //1
+console.log(isArray);
+
+creditCardTypeOfBlindermann = orders[2].creditCardType; //2
+console.log(creditCardTypeOfBlindermann);
+
+orders[2].creditCardType = "visa"; //3
+console.log(orders[2].creditCardType);
+
+totalPurchaseOfJoannet = orders[3].productQuantity; //4
+console.log(totalPurchaseOfJoannet);
+
+totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity; //5
+console.log(totalPurchaseOfDary);
+delete orders[0]; // order.shift()
+
+console.log(orders);
