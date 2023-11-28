@@ -56,7 +56,7 @@ console.log(creditCardTypeOfBlindermann);
 orders[2].creditCardType = "visa"; //3
 console.log(orders[2].creditCardType);
 
-totalPurchaseOfJoannet = orders[4].productQuantity; //4
+totalPurchaseOfJoannet = orders[3].productQuantity; //4
 console.log(totalPurchaseOfJoannet);
 
 totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity; //5
